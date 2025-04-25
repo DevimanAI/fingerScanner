@@ -23,7 +23,7 @@
                 <ComboBoxItem Content=" "/>
             </ComboBox>
 
-            <Button Content="جستجو" Width="100" Margin="5" Click="SearchButton_Click"/>
+            <Button Content="جستجو" Width="100" Margin="5" Click="FilterButton_Click"/>
         </StackPanel>
 
         <!-- DataGrid for Student List -->

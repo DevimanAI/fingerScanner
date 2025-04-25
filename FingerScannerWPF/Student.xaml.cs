@@ -217,7 +217,11 @@ namespace FingerScannerWPF
             }
         }
 
-        private async Task sumbitfingerprint_ClickAsync(object sender, RoutedEventArgs e)
+        private async void SumbitFingerprint_Click(object sender, RoutedEventArgs e)
+        {
+            await SumbitFingerprint_ClickAsync(sender, e);
+        }
+        private async Task SumbitFingerprint_ClickAsync(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -307,5 +311,6 @@ namespace FingerScannerWPF
                 MessageBox.Show(ex.ToString());
             }
         }
+
     }
 }

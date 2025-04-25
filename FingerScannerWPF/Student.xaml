@@ -99,6 +99,6 @@
         <Button Name="sumbitfingerprint" Content="تایید اثر انگشت ها" Grid.Row="3"
                 HorizontalAlignment="Center" Margin="0 30 0 0" Height="45" Width="200"
                 Background="#2ecc71" Foreground="White" FontSize="16" FontWeight="Bold"
-                Visibility="Collapsed" Click="sumbitfingerprint_Click"/>
+                Visibility="Collapsed" Click="SumbitFingerprint_Click"/>
     </Grid>
 </Window>

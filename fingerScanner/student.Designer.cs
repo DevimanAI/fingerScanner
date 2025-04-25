@@ -83,7 +83,7 @@
             this.codest.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.codest.Location = new System.Drawing.Point(732, 37);
             this.codest.Name = "codest";
-            this.codest.Size = new System.Drawing.Size(67, 17);
+            this.codest.Size = new System.Drawing.Size(72, 16);
             this.codest.TabIndex = 1;
             this.codest.Text = "کد دانشجویی";
             // 
@@ -93,7 +93,7 @@
             this.username.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.username.Location = new System.Drawing.Point(63, 37);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(46, 17);
+            this.username.Size = new System.Drawing.Size(44, 16);
             this.username.TabIndex = 2;
             this.username.Text = "label4";
             // 
@@ -128,7 +128,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(570, 36);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(50, 17);
+            this.label3.Size = new System.Drawing.Size(54, 16);
             this.label3.TabIndex = 5;
             this.label3.Text = "نامشخص";
             // 
@@ -138,7 +138,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(570, 78);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(50, 17);
+            this.label4.Size = new System.Drawing.Size(54, 16);
             this.label4.TabIndex = 6;
             this.label4.Text = "نامشخص";
             // 
@@ -148,7 +148,7 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(570, 122);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 17);
+            this.label5.Size = new System.Drawing.Size(54, 16);
             this.label5.TabIndex = 7;
             this.label5.Text = "نامشخص";
             // 
@@ -160,7 +160,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label6.Location = new System.Drawing.Point(1029, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(50, 17);
+            this.label6.Size = new System.Drawing.Size(54, 16);
             this.label6.TabIndex = 8;
             this.label6.Text = "نامشخص";
             // 
@@ -170,7 +170,7 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(642, 170);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 17);
+            this.label7.Size = new System.Drawing.Size(91, 16);
             this.label7.TabIndex = 12;
             this.label7.Text = "شماره دانشجویی";
             // 
@@ -180,7 +180,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(686, 122);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(39, 17);
+            this.label8.Size = new System.Drawing.Size(42, 16);
             this.label8.TabIndex = 11;
             this.label8.Text = "کد ملی";
             // 
@@ -190,7 +190,7 @@
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(660, 78);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(65, 17);
+            this.label9.Size = new System.Drawing.Size(73, 16);
             this.label9.TabIndex = 10;
             this.label9.Text = "نام خانوادگی";
             // 
@@ -200,7 +200,7 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(706, 36);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(19, 17);
+            this.label10.Size = new System.Drawing.Size(21, 16);
             this.label10.TabIndex = 9;
             this.label10.Text = "نام";
             // 
@@ -333,7 +333,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(570, 170);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(50, 17);
+            this.label11.Size = new System.Drawing.Size(54, 16);
             this.label11.TabIndex = 17;
             this.label11.Text = "نامشخص";
             // 

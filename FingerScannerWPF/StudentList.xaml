@@ -1,0 +1,47 @@
+﻿<Window x:Class="FingerScannerWPF.StudentList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="لیست دانشجویان" Height="600" Width="1008" FlowDirection="RightToLeft">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="8*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Filter Panel -->
+        <StackPanel Orientation="Horizontal" Margin="10">
+            <Label Content="شماره دانشجویی" VerticalAlignment="Center"/>
+            <TextBox x:Name="FilterIdTextBox" Width="150" Margin="5"/>
+
+            <Label Content="کد ملی" VerticalAlignment="Center"/>
+            <TextBox x:Name="FilterNationCodeTextBox" Width="150" Margin="5"/>
+
+            <Label Content="اثرانگشت" VerticalAlignment="Center"/>
+            <ComboBox x:Name="FingerprintComboBox" Width="150" Margin="5">
+                <ComboBoxItem Content="ثبت شده"/>
+                <ComboBoxItem Content="ثبت نشده"/>
+                <ComboBoxItem Content=" "/>
+            </ComboBox>
+
+            <Button Content="جستجو" Width="100" Margin="5" Click="SearchButton_Click"/>
+        </StackPanel>
+
+        <!-- DataGrid for Student List -->
+        <DataGrid x:Name="StudentDataGrid" Grid.Row="1" AutoGenerateColumns="False" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="شماره دانشجویی" Binding="{Binding Id}" Width="*"/>
+                <DataGridTextColumn Header="نام" Binding="{Binding FirstName}" Width="*"/>
+                <DataGridTextColumn Header="نام خانوادگی" Binding="{Binding LastName}" Width="*"/>
+                <DataGridTextColumn Header="کد ملی" Binding="{Binding NationCode}" Width="*"/>
+                <DataGridTextColumn Header="اثر انگشت" Binding="{Binding FingerprintStatus}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Status Bar -->
+        <StatusBar VerticalAlignment="Bottom" Grid.RowSpan="2">
+            <StatusBarItem>
+                <TextBlock x:Name="RecordCountTextBlock" Text="تعداد موارد: 0"/>
+            </StatusBarItem>
+        </StatusBar>
+    </Grid>
+</Window>

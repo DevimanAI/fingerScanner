@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.106
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fingerScanner", "fingerScanner\fingerScanner.csproj", "{8527F14E-75AD-4B41-B2AE-6A9FA33FB286}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FingerScannerWPF", "FingerScannerWPF\FingerScannerWPF.csproj", "{048BEFA9-1290-48F1-9C8A-DB6BFFA7E218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8527F14E-75AD-4B41-B2AE-6A9FA33FB286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8527F14E-75AD-4B41-B2AE-6A9FA33FB286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8527F14E-75AD-4B41-B2AE-6A9FA33FB286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{048BEFA9-1290-48F1-9C8A-DB6BFFA7E218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{048BEFA9-1290-48F1-9C8A-DB6BFFA7E218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{048BEFA9-1290-48F1-9C8A-DB6BFFA7E218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{048BEFA9-1290-48F1-9C8A-DB6BFFA7E218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
